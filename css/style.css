@@ -41,3 +41,20 @@
   .gallery-item:hover .overlay {
     opacity: 1;
   }
+
+  .image-section {
+    display: flex;
+    align-items: center;
+  }
+  .image {
+    flex: 1;
+    padding: 20px;
+  }
+  .image img {
+    max-width: 100%;
+    height: auto;
+  }
+  .description {
+    flex: 1;
+    padding: 20px;
+  }
